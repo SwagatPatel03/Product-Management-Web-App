@@ -116,15 +116,15 @@ npm start
 
 ## Screenshots
 - JWT Authentication
-![JWT1](frontend/screenshots/1.png)
+![JWT1](screenshots/1.png)
 
-![JWT2](frontend/screenshots/2.png)
+![JWT2](screenshots/2.png)
 
 - Home Page
-![Home_Page](frontend/screenshots/3.png)
+![Home_Page](screenshots/3.png)
 
 - Products Page
-![Product](frontend/screenshots/4.png)
+![Product](screenshots/4.png)
 
 - Adding a Product
-![Add_Product](frontend/screenshots/5.png)
+![Add_Product](screenshots/5.png)
