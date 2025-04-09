@@ -2,7 +2,7 @@ import axios from 'axios';
 
 const API_URL = 'http://localhost:5000/api';
 
-// Create axios instance
+// Creating axios instance
 const api = axios.create({
   baseURL: API_URL,
   headers: {
@@ -10,7 +10,7 @@ const api = axios.create({
   },
 });
 
-// Add request interceptor to add auth token
+// Adding request interceptor to add auth token
 api.interceptors.request.use(
   (config) => {
     const userInfo = localStorage.getItem('userInfo');

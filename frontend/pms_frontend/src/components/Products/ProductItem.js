@@ -2,7 +2,7 @@ import React from 'react';
 import { Link } from 'react-router-dom';
 
 const ProductItem = ({ product, onDelete }) => {
-  // Function to display stars for rating
+  //To display stars for rating
   const renderRating = (rating) => {
     const starCount = 5;
     const stars = [];

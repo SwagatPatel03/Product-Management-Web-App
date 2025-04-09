@@ -6,10 +6,10 @@ const userRoutes = require('./routes/userRoutes');
 const productRoutes = require('./routes/productRoutes');
 const { notFound, errorHandler } = require('./middleware/errorMiddleware');
 
-// Load environment variables
+//environment variables
 dotenv.config();
 
-// Connect to database
+// DB connection
 connectDB();
 
 const app = express();
